@@ -22,7 +22,6 @@ jobs:
           chmod +x kubectl
           sudo mv kubectl /usr/local/bin/
 
-
       - name: Set up awscli
         uses: hsupu@setup-awscli@v1
         with:
